@@ -1,6 +1,140 @@
-.header{
-    background: url(../images/donation9.jpg)
+/* banner styles */
+#header{
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(../images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 700px;
 }
-.banner{
-    width: ;
+#banner{
+    text-align: center;
+    position: relative;
+    padding-top: 150px;
+    }
+.banner-title{
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 75px;
+    color: #FFFFFF;
+
+}
+.banner-text{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.btn-primary{
+    color: #FFFFFF;
+    padding: 16px 12px;
+    background:  #FF5959;
+    border-radius: 5px;
+    border: none;
+    gap: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+/* .main-section{
+    width: 70%;
+    margin: 0 auto 100px;
+} */
+/* donate styles */
+.donate{
+    text-align: center;
+    margin-top: 100px;
+}
+.sec-title{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 54px;
+    color: #121212;
+    margin-bottom: 10px;
+}
+.sec-text{
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+.amount-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 400px;
+}
+.amount{
+    width: 136px;
+    height: 123px;
+    background-color: #FAFAFA;
+    color: #707070;
+    padding: 5px 10;
+    margin: 0 15px;
+    border-radius: 5px;
+    border: 2px solid #FAFAFA;
+
+}
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+}
+#amount-red{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+.send-amount{
+    display: block;
+    width: 100%;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    outline: none;
+    padding-top: 30px;
+    margin: 60px 0 8px 9px;
+}
+#id{
+    justify-content: center;
+    align-items: center;
+}
+.h{
+    margin: 0 450px;
+}
+/* plan section styles */
+.plan{
+    text-align: center;
+    margin-top: 100px;
+}
+.plan-title{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+    margin-bottom: 10px;
+}
+.plan-text{
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
 }
